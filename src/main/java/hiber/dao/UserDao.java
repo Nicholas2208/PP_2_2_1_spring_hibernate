@@ -9,5 +9,5 @@ public interface UserDao {
     void add(User user);
     List<User> getUsers();
 
-    User getUserByCar(String model, int series) throws NoResultException;
+    User getUserByCar(String model, int series);
 }
