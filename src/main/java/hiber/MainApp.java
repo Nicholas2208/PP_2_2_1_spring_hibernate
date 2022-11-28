@@ -46,8 +46,6 @@ public class MainApp
         User lena = userService.getUserByCar("Mercedes Benz", 34567);
         System.out.println(lena);
 
-        User nonExistent = userService.getUserByCar("Greate Wall", 11111);
-
         context.close();
     }
 }
